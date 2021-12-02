@@ -593,6 +593,7 @@ namespace mbit_Robot {
      * @param on On value
      * @param off Off value
      */
+    //% block
     //% blockId=mbit_setPwm block="setPwm|index %index|on %value1|off %value2"
     //% weight=90
     //% blockGap=10
