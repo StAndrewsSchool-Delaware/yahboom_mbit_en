@@ -587,6 +587,12 @@ namespace mbit_Robot {
         i2cwrite(PCA9685_ADD, MODE1, oldmode | 0xa1);
     }
 
+    /**
+     * set PWM
+     * @param index Index
+     * @param on On value
+     * @param off Off value
+     */
     //% blockId=mbit_setPwm block="setPwm|index %index|on %value1|off %value2"
     //% weight=90
     //% blockGap=10
