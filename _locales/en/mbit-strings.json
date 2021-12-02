@@ -32,5 +32,5 @@
   "mbit_Robot.CarCtrlSpeed|block": "robot control|%index|speed %speed",
   "mbit_Robot.CarCtrlSpeed2|block": "robot control|%index|speed1 %speed1|speed2 %speed2",
   
-  "mbit_robot.setPwm|block": "pwm channel|index %index|off %value1|on %value2"
+  "mbit_Robot.setPwm|block": "pwm channel|index %index|off %value1|on %value2"
 }
