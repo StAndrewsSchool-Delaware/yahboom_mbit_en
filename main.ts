@@ -587,6 +587,12 @@ namespace mbit_Robot {
         i2cwrite(PCA9685_ADD, MODE1, oldmode | 0xa1);
     }
 
+    //% blockId=mbit_setPwm block="setPwm|index %index|off %value1|on %value2"
+    //% weight=91
+    //% blockGap=10
+    //% value1.min=0 value1.max=4095 value2.min=0 value2.max=4095
+    //% color="#006400"
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10	
     function setPwm(channel: number, on: number, off: number): void {
         if (channel < 0 || channel > 15)
             return;
