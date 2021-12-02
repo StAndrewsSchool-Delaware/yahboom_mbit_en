@@ -588,7 +588,7 @@ namespace mbit_Robot {
     }
 
     //% blockId=mbit_setPwm block="setPwm|index %index|off %value1|on %value2"
-    //% weight=91
+    //% weight=102
     //% blockGap=10
     //% value1.min=0 value1.max=4095 value2.min=0 value2.max=4095
     //% color="#006400"
