@@ -600,7 +600,7 @@ namespace mbit_Robot {
     //% value1.min=0 value1.max=4095 value2.min=0 value2.max=4095
     //% color="#006400"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4	
-    function setPwm(channel: number, on: number, off: number): void {
+    export function setPwm(channel: number, on: number, off: number): void {
         if (channel < 0 || channel > 15)
             return;
         if (!initialized) {
